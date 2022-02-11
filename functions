@@ -1,0 +1,61 @@
+def print_lyrics():
+    print ("lala")
+    print ("mmmm")
+print_lyrics()
+def repeat_lyrics():
+    print_lyrics()
+    print_lyrics()
+repeat_lyrics()
+
+def print_twice(pa):
+    print(pa)
+    print(pa)
+
+print_twice('diana ' * 4)
+
+print_twice('stefan')
+
+import math
+print_twice(math.pi)
+
+diana="netflix and chill"
+print_twice(diana)
+
+def cat_lover(a, b):
+    cat=a+b
+    print_twice(cat)
+
+cat_lover('cat ', 'miau')
+
+line1='diana loves cats '
+line2='and doritos'
+cat_lover(line1, line2)
+
+from math import pi
+print(pi)
+
+from math import *
+print(cos(pi))
+
+s=input('please enter your input here: ')
+def right_justify(bruce):
+    print(len(bruce))
+right_justify(s)
+
+def do_twice(f):
+    f()
+    f()
+do_twice(right_justify(s))
+
+def do_one():
+    print('+ - - - - + - - - - +')
+def do_four():
+    print('|         |         |')
+    print('|         |         |')
+    print('|         |         |')
+    print('|         |         |')
+do_one()
+do_four()
+do_one()
+do_four()
+do_one()
